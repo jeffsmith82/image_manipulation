@@ -1,0 +1,13 @@
+[package]
+name = "image_manipulation"
+version = "0.1.0"
+authors = ["jeffreys <jeffrey_smith@hotmail.co.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.23.4"
+tokio = { version = "0.2", features = ["full"] }
+hyper = "0.13.6"
+http = "0.2.1"
